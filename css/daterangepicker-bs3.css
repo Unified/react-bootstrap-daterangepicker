@@ -12,6 +12,10 @@
   z-index: 3000;
 }
 
+.daterangepicker_container {
+  max-width: 220px;
+}
+
 .daterangepicker.opensleft .ranges, .daterangepicker.opensleft .calendar {
   float: left;
   margin: 4px;
@@ -318,4 +322,12 @@
 
 .daterangepicker th.month {
   width: auto;
+}
+
+.daterangepicker .cancelBtn {
+  width: 90px;
+}
+
+.daterangepicker .applyBtn {
+  width: 60px
 }
